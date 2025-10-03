@@ -1,0 +1,16 @@
+/* hiệu ứng hover cho từng action */
+.nav-action {
+  transition: all 0.25s ease-in-out !important;
+  color: #555 !important;
+}
+
+.nav-action:hover {
+  transform: translateY(-4px);
+  color: #1976d2 !important; /* màu xanh primary */
+}
+
+/* trạng thái active (được chọn) */
+.Mui-selected {
+  color: #1976d2 !important;
+  font-weight: 600 !important;
+}

@@ -1,0 +1,126 @@
+/* Container chính */
+.profile-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Header: avatar + tên */
+.profile-header {
+  margin-bottom: 20px;
+}
+
+.profile-avatar {
+  width: 120px !important;
+  height: 120px !important;
+  margin: 0 auto 15px;
+  border-radius: 50%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.4s ease, box-shadow 0.3s ease;
+}
+
+.profile-avatar:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Tên và subtitle */
+.profile-name {
+  font-weight: 700 !important;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.profile-subtitle {
+  font-weight: 500 !important;
+  opacity: 0.7;
+  font-family: "Montserrat", sans-serif !important;
+  letter-spacing: 1px;
+}
+
+/* Social icons */
+.social-container {
+  background-color: ghostwhite;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.social-icon {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+  color: #1976d2; /* xanh MUI */
+}
+
+/* Thông tin cá nhân */
+.profile-info {
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.95), rgba(245, 247, 252, 0.92));
+  border-radius: 16px;
+  padding: 24px 28px;
+  margin: 0 auto 30px;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+  text-align: left;
+}
+
+.profile-section-title {
+  font-weight: 700 !important;
+  margin-bottom: 16px !important;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.info-details {
+  margin-top: 12px;
+}
+
+.info-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.info-row:hover {
+  background: rgba(99, 102, 241, 0.12);
+  transform: translateY(-2px);
+}
+
+.info-icon {
+  color: #1976d2;
+  font-size: 1.8rem !important;
+}
+
+.info-text {
+  font-weight: 500;
+  color: #1f2937;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.info-text span {
+  font-weight: 600;
+  color: #111827;
+}
+
+@media (max-width: 600px) {
+  .profile-container {
+    padding: 16px;
+  }
+
+  .profile-info {
+    padding: 20px;
+  }
+
+  .info-row {
+    padding: 10px 12px;
+    gap: 10px;
+  }
+
+  .info-icon {
+    font-size: 1.6rem !important;
+  }
+}
+

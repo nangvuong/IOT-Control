@@ -1,0 +1,175 @@
+/* Toàn bảng */
+
+.data-sensor-table {
+  border-radius: 16px !important;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+}
+/* Header */
+.table-header {
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+}
+.table-header th {
+  color: #fff !important;
+  font-weight: bold !important;
+  font-size: 1rem;
+  text-align: center;
+  padding: 14px 16px;
+  text-transform: uppercase;
+}
+
+/* Row */
+.table-row td {
+  text-align: center;
+  font-weight: bold;
+  padding: 12px 16px;
+  color: #333;
+  border: none;
+}
+
+/* Row xen kẽ */
+.table-row:nth-of-type(odd) {
+  background: #ffffff;
+}
+.table-row:nth-of-type(even) {
+  background: #f7f9fc;
+}
+
+/* Hover */
+.table-row:hover {
+  background: #eaf1ff;
+  transform: scale(1.01);
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+/* Thanh tìm kiếm */
+.search-bar {
+  padding: 12px 20px !important;
+  margin-bottom: 20px !important;
+  border-radius: 20px !important;
+  background: rgba(255, 255, 255) !important; /* trong suốt */
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08) !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.device-select {
+  border-radius: 12px !important;
+  background: rgba(255, 255, 255) !important;
+  backdrop-filter: blur(6px) !important;
+  -webkit-backdrop-filter: blur(6px) !important;
+  min-width: 160px;
+  color: #333 !important;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  transition: all 0.2s ease-in-out;
+}
+
+/* Hover */
+.device-select:hover {
+  background: rgba(240, 245, 255, 0.9) !important;
+  cursor: pointer;
+}
+
+/* Focus khi bấm chọn */
+.Mui-focused .device-select {
+  box-shadow: 0 0 6px rgba(106,17,203,0.3);
+  border-radius: 12px !important;
+}
+
+/* Khi hover vào select */
+.device-select:hover {
+  background: #eef4ff !important;
+  transition: 0.2s ease;
+}
+.custom-menu {
+  font-size: 13px !important;
+  border-radius: 10px !important;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Style cho từng MenuItem */
+.custom-menu .MuiMenuItem-root {
+  font-size: 13px !important;
+  padding-top: 6px !important;
+  padding-bottom: 6px !important;
+}
+
+/* Ô nhập ngày giờ */
+.search-input input {
+  border-radius: 12px !important;
+  min-width: 250px;
+  font-weight: bold;
+}
+
+.search-btn:hover {
+  opacity: 0.9;
+  transform: scale(1.03);
+  transition: 0.2s ease-in-out;
+}
+
+/* Container phân trang */
+.MuiTablePagination-root {
+  border-top: 1px solid #e0e0e0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 16px;
+
+}
+
+/* Label: "Số dòng mỗi trang" */
+.MuiTablePagination-selectLabel {
+  font-size: 0.95rem !important;
+  font-weight: bold !important;
+  color: #333 !important;
+  margin-right: 8px;
+}
+
+/* Dropdown chọn số dòng */
+.MuiTablePagination-select {
+  border-radius: 8px !important;
+  padding: 4px 10px !important;
+  font-size: 0.9rem !important;
+  font-weight: bold !important;
+  color: #2575fc !important;
+}
+
+/* Text hiển thị "1–5 trên 9" */
+.MuiTablePagination-displayedRows {
+  font-size: 0.9rem !important;
+  font-weight: bold !important;
+  color: #333 !important;
+}
+
+/* Nút mũi tên phân trang */
+.MuiTablePagination-actions button {
+  color: #2575fc !important;
+  transition: 0.2s ease;
+  border-radius: 8px !important;
+}
+
+.MuiTablePagination-actions button:hover {
+  background: rgba(37, 117, 252, 0.08) !important;
+  transform: scale(1.1);
+}
+
+.MuiTableSortLabel-root {
+  color: inherit !important;
+}
+
+.MuiTableSortLabel-root.Mui-active {
+  color: inherit !important;
+}
+
+.MuiTableSortLabel-icon {
+  color: inherit !important;
+  opacity: 0.6; /* giống mặc định khi chưa active */
+}
+
+.MuiTableSortLabel-root.Mui-active .MuiTableSortLabel-icon {
+  color: inherit !important;
+}
+
