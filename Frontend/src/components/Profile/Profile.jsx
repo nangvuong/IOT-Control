@@ -53,7 +53,7 @@ export default function Profile() {
 
       {/* Liên kết mạng xã hội và tài liệu dự án */}
       <Stack direction="row" spacing={3} justifyContent="center" className="social-container">
-        <IconButton className="social-icon" href="https://github.com/nangvuong" target="_blank">
+        <IconButton className="social-icon" href="https://github.com/nangvuong/IOT-Control" target="_blank">
           <Tooltip title="Github">
             <GitHub />
           </Tooltip>
